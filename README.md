@@ -44,6 +44,28 @@ Example:
 dotnet dbinfo sqlserver .\SQLEXPRESS master sa Pass1234
 ```
 
+### Azure SQL
+
+```
+Usage: dotnet dbinfo sqlazure server database user password
+
+Arguments:
+
+  server                    Name of the database server
+
+  database                  Name of the database instance
+
+  user                      Login name of the user
+
+  password                  Password of the user        
+```
+
+Example:
+```
+dotnet dbinfo sqlazure .\SQLEXPRESS master sa Pass1234
+```
+
+
 ### AWS DynamoDb
 
 ```
